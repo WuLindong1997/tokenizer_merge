@@ -26,6 +26,8 @@ python code/merge.py \
 
 
 ### 3.最后把训练好的模型复制到chatglm文件中
+- model/merged_tokenizer_sp/tibet_tokenizer.model 放入chaglm2文件夹里面，并且改名tokenizer.model
+- 加载模型时 model.resize_token_embeddings(len(tokenizer))
 
 
 
